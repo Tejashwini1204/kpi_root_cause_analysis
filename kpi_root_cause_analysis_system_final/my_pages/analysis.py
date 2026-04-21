@@ -20,7 +20,7 @@ def show():
     # ---------------- CLEAN DATA ----------------
     # convert all numeric safely
     for col in df.columns:
-        df[col] = pd.to_numeric(df[col], errors="ignore")
+        df[col] = pd.to_numeric(df[col], errors="coerce")
 
     numeric = df.select_dtypes(include="number")
 
