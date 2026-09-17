@@ -2,6 +2,10 @@
 
 An interactive business analytics application for monitoring key performance indicators, analyzing performance fluctuations, identifying potential contributing factors, and generating automated reports.
 
+## Live Demo
+
+(https://kpirootcauseanalysis-fakdmm9af4dlpnumzkiecq.streamlit.app/)
+
 ## Project Overview
 
 The system analyzes business transaction data to monitor important KPIs including Quantity, Sales, Profit, and Discount.
@@ -54,7 +58,6 @@ Includes signup and login functionality using SQLite3.
 
 - Python
 - Pandas
-- NumPy
 - Scikit-learn
 - Streamlit
 - Plotly
